@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.mail-forwarding]
+path = 'contracts/mail-forwarding.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.mail-routing]
 path = 'contracts/mail-routing.clar'
 clarity_version = 2
